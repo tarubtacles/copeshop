@@ -62,7 +62,17 @@
         <h2>🛒 Your Cart</h2>
         <ul id="cartItemsList"></ul>
         <p>Total: ₱<span id="modalTotal">0</span></p>
-        <button class="checkout-btn" onclick="checkout()">Checkout</button>
+
+        <button class="checkout-btn" onclick="completeOrder()">Checkout</button>
+    </div>
+</div>
+
+<!-- Receipt Modal -->
+<div id="receiptModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeReceipt()">&times;</span>
+        <h2>🧾 Receipt</h2>
+        <div id="receiptContent"></div>
     </div>
 </div>
 
