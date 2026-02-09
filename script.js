@@ -1,5 +1,5 @@
 const products = [
-    { name: "Espresso", price: 120, category: "coffee", img: "https://images.unsplash.com/photo-1510627498534-cf7e9002facc" },
+    { name: "Espresso", price: 120, category: "coffee", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOHt2rpGGTX9fUD-IKp3Sv68OH-l7hOW7vUxy5qht4Rw&s=10" },
     { name: "Cappuccino", price: 150, category: "coffee", img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
     { name: "Croissant", price: 90, category: "pastries", img: "https://images.unsplash.com/photo-1549903072-7e6e0bedb7fb" },
     { name: "Chocolate Cake", price: 180, category: "cakes", img: "https://images.unsplash.com/photo-1578985545062-69928b1d9587" }
